@@ -27,7 +27,6 @@ class PomodoroTimer:
         self.s.configure("TNotebook.Tab", font = ("Ubuntu", 16))
         self.s.configure("TButton", font = ("Ubuntu", 16))
         
-
         self.tabs = ttk.Notebook(self.root)
         self.tabs.pack(fill = 'both', pady = 10, padx = 10, expand = True)
 
