@@ -3,7 +3,6 @@ import threading
 import tkinter as tk
 from tkinter import ttk, PhotoImage
 
-
 import os
 import sys
 
@@ -13,7 +12,6 @@ def resource_path(relative_path):
     except Exception:
         base_path = os.path.abspath(".")
     return os.path.join(base_path, relative_path)
-
 
 class PomodoroTimer:
 
@@ -152,6 +150,5 @@ class PomodoroTimer:
         
         self.stopped = True
         self.skipped = True
-
 
 PomodoroTimer()
